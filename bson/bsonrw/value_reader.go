@@ -16,8 +16,8 @@ import (
 	"sync"
 	"unicode"
 
-	"go.mongodb.org/mongo-driver/bson/bsontype"
-	"go.mongodb.org/mongo-driver/bson/primitive"
+	"github.com/zhangzhaojian/go-mongodb/bson/bsontype"
+	"github.com/zhangzhaojian/go-mongodb/bson/primitive"
 )
 
 var _ ValueReader = (*valueReader)(nil)

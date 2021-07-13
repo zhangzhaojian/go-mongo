@@ -7,7 +7,7 @@
 package bson
 
 import (
-	"go.mongodb.org/mongo-driver/bson/bsoncodec"
+	"github.com/zhangzhaojian/go-mongodb/bson/bsoncodec"
 )
 
 type marshalingTestCase struct {

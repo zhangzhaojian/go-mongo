@@ -10,8 +10,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"go.mongodb.org/mongo-driver/bson/bsontype"
-	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
+	"github.com/zhangzhaojian/go-mongodb/bson/bsontype"
+	"github.com/zhangzhaojian/go-mongodb/x/bsonx/bsoncore"
 )
 
 // MDoc is an unordered, type safe, concise BSON document representation. This type should not be

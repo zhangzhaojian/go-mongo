@@ -22,8 +22,8 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/require"
 	"github.com/tidwall/pretty"
-	"go.mongodb.org/mongo-driver/bson/bsoncodec"
-	"go.mongodb.org/mongo-driver/bson/bsonrw"
+	"github.com/zhangzhaojian/go-mongodb/bson/bsoncodec"
+	"github.com/zhangzhaojian/go-mongodb/bson/bsonrw"
 )
 
 type testCase struct {

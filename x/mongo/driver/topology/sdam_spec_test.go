@@ -15,13 +15,13 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/require"
-	"go.mongodb.org/mongo-driver/bson"
-	"go.mongodb.org/mongo-driver/bson/primitive"
-	testhelpers "go.mongodb.org/mongo-driver/internal/testutil/helpers"
-	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/address"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/connstring"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/description"
+	"github.com/zhangzhaojian/go-mongodb/bson"
+	"github.com/zhangzhaojian/go-mongodb/bson/primitive"
+	testhelpers "github.com/zhangzhaojian/go-mongodb/internal/testutil/helpers"
+	"github.com/zhangzhaojian/go-mongodb/x/bsonx/bsoncore"
+	"github.com/zhangzhaojian/go-mongodb/x/mongo/driver/address"
+	"github.com/zhangzhaojian/go-mongodb/x/mongo/driver/connstring"
+	"github.com/zhangzhaojian/go-mongodb/x/mongo/driver/description"
 )
 
 type response struct {

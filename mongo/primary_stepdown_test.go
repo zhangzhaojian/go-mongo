@@ -12,12 +12,12 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"go.mongodb.org/mongo-driver/bson"
-	"go.mongodb.org/mongo-driver/event"
-	"go.mongodb.org/mongo-driver/internal/testutil"
-	"go.mongodb.org/mongo-driver/mongo/options"
-	"go.mongodb.org/mongo-driver/mongo/readpref"
-	"go.mongodb.org/mongo-driver/mongo/writeconcern"
+	"github.com/zhangzhaojian/go-mongodb/bson"
+	"github.com/zhangzhaojian/go-mongodb/event"
+	"github.com/zhangzhaojian/go-mongodb/internal/testutil"
+	"github.com/zhangzhaojian/go-mongodb/mongo/options"
+	"github.com/zhangzhaojian/go-mongodb/mongo/readpref"
+	"github.com/zhangzhaojian/go-mongodb/mongo/writeconcern"
 )
 
 type serverStatus struct {

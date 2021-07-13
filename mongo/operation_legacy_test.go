@@ -6,13 +6,13 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"go.mongodb.org/mongo-driver/bson"
-	"go.mongodb.org/mongo-driver/bson/primitive"
-	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
-	"go.mongodb.org/mongo-driver/x/mongo/driver"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/description"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/drivertest"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/wiremessage"
+	"github.com/zhangzhaojian/go-mongodb/bson"
+	"github.com/zhangzhaojian/go-mongodb/bson/primitive"
+	"github.com/zhangzhaojian/go-mongodb/x/bsonx/bsoncore"
+	"github.com/zhangzhaojian/go-mongodb/x/mongo/driver"
+	"github.com/zhangzhaojian/go-mongodb/x/mongo/driver/description"
+	"github.com/zhangzhaojian/go-mongodb/x/mongo/driver/drivertest"
+	"github.com/zhangzhaojian/go-mongodb/x/mongo/driver/wiremessage"
 )
 
 type opQuery struct {

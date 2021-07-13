@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"strings"
 
-	"go.mongodb.org/mongo-driver/bson/bsontype"
-	"go.mongodb.org/mongo-driver/event"
-	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/description"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/session"
+	"github.com/zhangzhaojian/go-mongodb/bson/bsontype"
+	"github.com/zhangzhaojian/go-mongodb/event"
+	"github.com/zhangzhaojian/go-mongodb/x/bsonx/bsoncore"
+	"github.com/zhangzhaojian/go-mongodb/x/mongo/driver/description"
+	"github.com/zhangzhaojian/go-mongodb/x/mongo/driver/session"
 )
 
 // BatchCursor is a batch implementation of a cursor. It returns documents in entire batches instead

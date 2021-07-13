@@ -13,9 +13,9 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/require"
-	"go.mongodb.org/mongo-driver/bson"
-	"go.mongodb.org/mongo-driver/internal/testutil"
-	"go.mongodb.org/mongo-driver/mongo/options"
+	"github.com/zhangzhaojian/go-mongodb/bson"
+	"github.com/zhangzhaojian/go-mongodb/internal/testutil"
+	"github.com/zhangzhaojian/go-mongodb/mongo/options"
 )
 
 func shouldSkipMongosPinningTests(t *testing.T, serverVersion string) bool {

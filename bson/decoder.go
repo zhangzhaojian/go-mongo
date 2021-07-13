@@ -12,8 +12,8 @@ import (
 	"reflect"
 	"sync"
 
-	"go.mongodb.org/mongo-driver/bson/bsoncodec"
-	"go.mongodb.org/mongo-driver/bson/bsonrw"
+	"github.com/zhangzhaojian/go-mongodb/bson/bsoncodec"
+	"github.com/zhangzhaojian/go-mongodb/bson/bsonrw"
 )
 
 // ErrDecodeToNil is the error returned when trying to decode to a nil value

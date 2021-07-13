@@ -9,9 +9,9 @@ package session
 import (
 	"time"
 
-	"go.mongodb.org/mongo-driver/mongo/readconcern"
-	"go.mongodb.org/mongo-driver/mongo/readpref"
-	"go.mongodb.org/mongo-driver/mongo/writeconcern"
+	"github.com/zhangzhaojian/go-mongodb/mongo/readconcern"
+	"github.com/zhangzhaojian/go-mongodb/mongo/readpref"
+	"github.com/zhangzhaojian/go-mongodb/mongo/writeconcern"
 )
 
 // ClientOptions represents all possible options for creating a client session.

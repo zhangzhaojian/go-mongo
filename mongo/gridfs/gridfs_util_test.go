@@ -7,11 +7,11 @@ import (
 	"os"
 	"testing"
 
-	"go.mongodb.org/mongo-driver/bson"
-	"go.mongodb.org/mongo-driver/bson/primitive"
-	testhelpers "go.mongodb.org/mongo-driver/internal/testutil/helpers"
-	"go.mongodb.org/mongo-driver/mongo"
-	"go.mongodb.org/mongo-driver/x/bsonx"
+	"github.com/zhangzhaojian/go-mongodb/bson"
+	"github.com/zhangzhaojian/go-mongodb/bson/primitive"
+	testhelpers "github.com/zhangzhaojian/go-mongodb/internal/testutil/helpers"
+	"github.com/zhangzhaojian/go-mongodb/mongo"
+	"github.com/zhangzhaojian/go-mongodb/x/bsonx"
 )
 
 type runOn struct {

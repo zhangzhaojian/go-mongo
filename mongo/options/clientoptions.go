@@ -4,7 +4,7 @@
 // not use this file except in compliance with the License. You may obtain
 // a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
 
-package options // import "go.mongodb.org/mongo-driver/mongo/options"
+package options // import "github.com/zhangzhaojian/go-mongodb/mongo/options"
 
 import (
 	"bytes"
@@ -19,13 +19,13 @@ import (
 	"strings"
 	"time"
 
-	"go.mongodb.org/mongo-driver/bson/bsoncodec"
-	"go.mongodb.org/mongo-driver/event"
-	"go.mongodb.org/mongo-driver/mongo/readconcern"
-	"go.mongodb.org/mongo-driver/mongo/readpref"
-	"go.mongodb.org/mongo-driver/mongo/writeconcern"
-	"go.mongodb.org/mongo-driver/tag"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/connstring"
+	"github.com/zhangzhaojian/go-mongodb/bson/bsoncodec"
+	"github.com/zhangzhaojian/go-mongodb/event"
+	"github.com/zhangzhaojian/go-mongodb/mongo/readconcern"
+	"github.com/zhangzhaojian/go-mongodb/mongo/readpref"
+	"github.com/zhangzhaojian/go-mongodb/mongo/writeconcern"
+	"github.com/zhangzhaojian/go-mongodb/tag"
+	"github.com/zhangzhaojian/go-mongodb/x/mongo/driver/connstring"
 )
 
 // ContextDialer makes new network connections

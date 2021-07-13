@@ -14,9 +14,9 @@ import (
 
 	"math"
 
-	"go.mongodb.org/mongo-driver/bson/primitive"
-	"go.mongodb.org/mongo-driver/mongo"
-	"go.mongodb.org/mongo-driver/x/bsonx"
+	"github.com/zhangzhaojian/go-mongodb/bson/primitive"
+	"github.com/zhangzhaojian/go-mongodb/mongo"
+	"github.com/zhangzhaojian/go-mongodb/x/bsonx"
 )
 
 // UploadBufferSize is the size in bytes of one stream batch. Chunks will be written to the db after the sum of chunk

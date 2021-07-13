@@ -17,8 +17,8 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/require"
-	"go.mongodb.org/mongo-driver/mongo/options"
-	"go.mongodb.org/mongo-driver/x/bsonx"
+	"github.com/zhangzhaojian/go-mongodb/mongo/options"
+	"github.com/zhangzhaojian/go-mongodb/x/bsonx"
 )
 
 var seed = time.Now().UnixNano()

@@ -9,8 +9,8 @@ package auth
 import (
 	"context"
 
-	"go.mongodb.org/mongo-driver/x/mongo/driver"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/description"
+	"github.com/zhangzhaojian/go-mongodb/x/mongo/driver"
+	"github.com/zhangzhaojian/go-mongodb/x/mongo/driver/description"
 )
 
 func newDefaultAuthenticator(cred *Cred) (Authenticator, error) {

@@ -4,7 +4,7 @@
 // not use this file except in compliance with the License. You may obtain
 // a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
 
-package testutil // import "go.mongodb.org/mongo-driver/internal/testutil"
+package testutil // import "github.com/zhangzhaojian/go-mongodb/internal/testutil"
 
 import (
 	"context"
@@ -12,12 +12,12 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"go.mongodb.org/mongo-driver/mongo/writeconcern"
-	"go.mongodb.org/mongo-driver/x/bsonx/bsoncore"
-	"go.mongodb.org/mongo-driver/x/mongo/driver"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/description"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/operation"
-	"go.mongodb.org/mongo-driver/x/mongo/driver/topology"
+	"github.com/zhangzhaojian/go-mongodb/mongo/writeconcern"
+	"github.com/zhangzhaojian/go-mongodb/x/bsonx/bsoncore"
+	"github.com/zhangzhaojian/go-mongodb/x/mongo/driver"
+	"github.com/zhangzhaojian/go-mongodb/x/mongo/driver/description"
+	"github.com/zhangzhaojian/go-mongodb/x/mongo/driver/operation"
+	"github.com/zhangzhaojian/go-mongodb/x/mongo/driver/topology"
 )
 
 // AutoCreateIndexes creates an index in the test cluster.

@@ -11,8 +11,8 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"go.mongodb.org/mongo-driver/bson/bsonrw"
-	"go.mongodb.org/mongo-driver/bson/bsontype"
+	"github.com/zhangzhaojian/go-mongodb/bson/bsonrw"
+	"github.com/zhangzhaojian/go-mongodb/bson/bsontype"
 )
 
 func TestRegistry(t *testing.T) {
